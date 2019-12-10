@@ -33,7 +33,7 @@ if (!token) {
  * Set up HTTP client
  */
 const api = axios.create({
-  baseURL: 'https://beta.todoist.com/API/v8/',
+  baseURL: 'https://api.todoist.com/rest/v1/',
   timeout: 15000,
   headers: {
     'Authorization': 'Bearer ' + token, 'X-Request-Id': uuid(),
